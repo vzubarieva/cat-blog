@@ -6,6 +6,11 @@ $(document).ready(function() {
 
   $("button#black").click(function() {
     $("body").removeClass();
-    $("body").addClass("black-background");
+    $("body").addClass("dark-background");
+  });
+
+  $("p").click(function(event) {
+    $('p').removeClass();
+    $(event.target).addClass("yellow");
   });
 });

@@ -1,8 +1,16 @@
+body {
+  font-family: sans-serif;
+}
 h1 {
   color: #5502FA;
   text-align: center;
 }
-
+.dark-background h1 {
+color: yellow
+}
+body.dark-background {
+  color: white
+}
 h2 {
   font-style: italic;
   text-align: center;
@@ -10,8 +18,13 @@ h2 {
 
 p {
   font-family: sans-serif;
+  text-align: center;
 }
-
+p.yellow {
+  background-color: yellow;
+  padding: 20px;
+  border: solid black;
+}
 ul {
   font-size: 20px;
   line-height: 30px;
@@ -21,6 +34,6 @@ ul {
   background-color: white;
 }
 
-.black-background {
+.dark-background {
   background-color: black;
 }
